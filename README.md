@@ -1,6 +1,6 @@
 # Synchronous FIFO (Verilog)
 
-## 📌 Overview
+## Overview
 This project implements a **parameterized synchronous FIFO** in Verilog along with a **comprehensive testbench**.  
 The FIFO operates in a **single clock domain** and uses a **count-based mechanism** to detect **FULL** and **EMPTY** conditions.
 
@@ -11,7 +11,7 @@ This project is designed for:
 
 ---
 
-## ✨ Features
+## Features
 - Single-clock synchronous FIFO
 - Parameterized **DEPTH** and **WIDTH**
 - Count-based FULL and EMPTY detection
@@ -19,6 +19,15 @@ This project is designed for:
 - Natural pointer wrap-around (no modulo operator)
 - Fully synthesizable RTL
 - Directed + random testbench with waveform dumping
+
+---
+
+## Design Rules
+- FULL blocks writes but allows reads
+- EMPTY blocks reads but allows writes
+- count does not wrap
+- Pointers wrap naturally by width
+- Simultaneous read/write keeps count unchanged
 
 ---
 
