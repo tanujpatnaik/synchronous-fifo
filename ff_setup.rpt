@@ -1,0 +1,35 @@
+Startpoint: wr_en (input port clocked by clk)
+Endpoint: _0865_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   2.00    2.00 ^ input external delay
+   0.01    2.01 ^ wr_en (in)
+   0.05    2.06 v _0426_/Y (sky130_fd_sc_hd__clkinv_1)
+   0.90    2.96 ^ _0434_/Y (sky130_fd_sc_hd__a211oi_1)
+   0.37    3.34 v _0771_/Y (sky130_fd_sc_hd__nand3_1)
+   0.28    3.62 ^ _0775_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.00    3.62 ^ _0865_/D (sky130_fd_sc_hd__dfxtp_1)
+           3.62   data arrival time
+
+  10.00   10.00   clock clk (rise edge)
+   0.00   10.00   clock source latency
+   0.00   10.00 ^ clk (in)
+   0.15   10.15 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.12   10.27 ^ clkbuf_4_13_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.00   10.27 ^ _0865_/CLK (sky130_fd_sc_hd__dfxtp_1)
+  -0.20   10.07   clock uncertainty
+   0.00   10.07   clock reconvergence pessimism
+  -0.04   10.03   library setup time
+          10.03   data required time
+---------------------------------------------------------
+          10.03   data required time
+          -3.62   data arrival time
+---------------------------------------------------------
+           6.41   slack (MET)
+
+
