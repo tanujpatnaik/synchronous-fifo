@@ -332,10 +332,6 @@ sync_fifo/
 B.Tech, Electronics and Communication Engineering
 National Institute of Technology Rourkela
 
-Interested in RTL Design, Static Timing Analysis (STA), Physical Design and ASIC Implementation.
+Interested in Static Timing Analysis (STA), Physical Design and ASIC Implementation.
 
 ---
-
-## License
-
-This project is released under the MIT License.
