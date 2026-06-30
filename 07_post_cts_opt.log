@@ -1,0 +1,72 @@
+OpenROAD 26Q2-2466-gd1f7a8dec3 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+
+================ BEFORE REPAIR ================
+
+Startpoint                           Endpoint                               Slack
+--------------------------------------------------------------------------------
+wr_en (input)                        _0889_/D (sky130_fd_sc_hd__dfxtp_1)     4.75
+
+Startpoint                           Endpoint                               Slack
+--------------------------------------------------------------------------------
+_0996_/Q (sky130_fd_sc_hd__dfxtp_1)  _0996_/D (sky130_fd_sc_hd__dfxtp_1)     0.23
+
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove CloneMove SplitLoadMove 
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0505] Runtime: 0.10s
+[INFO RSZ-0033] No hold violations found.
+[INFO RSZ-0506] Runtime: 0.01s
+[INFO DPL-0006] Core area: 7807.49 um^2, Instances area: 6436.17 um^2, Utilization: 82.4%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1101] Legalizing using diamond search.
+setInitialGridCells()
+Movements Summary
+---------------------------------------
+Total cells:                      32
+Diamond Move Success:             11 ( 34.38%)
+Diamond Move Failure:             21
+Rip-up and replace Success:       21 (100.00% of diamond failures)
+Rip-up and replace Failure:        0
+Total Placement Failures:          0
+---------------------------------------
+[INFO DPL-0500] Runtime: 0.05s
+Placement Analysis
+---------------------------------
+total displacement       1161.0 u
+average displacement        1.6 u
+max displacement           54.9 u
+original HPWL            9166.8 u
+legalized HPWL          10527.2 u
+delta HPWL                   15 %
+
+
+================ AFTER REPAIR ================
+
+Startpoint                           Endpoint                               Slack
+--------------------------------------------------------------------------------
+wr_en (input)                        _0865_/D (sky130_fd_sc_hd__dfxtp_1)     4.59
+
+Startpoint                           Endpoint                               Slack
+--------------------------------------------------------------------------------
+_0995_/Q (sky130_fd_sc_hd__dfxtp_1)  _0995_/D (sky130_fd_sc_hd__dfxtp_1)     0.23
+
+Design area 6436 um^2 82% utilization.
+Clock clk
+   0.36 source latency _0924_/CLK ^
+  -0.36 target latency _0876_/CLK ^
+   0.20 clock uncertainty
+   0.00 CRPR
+--------------
+   0.20 setup skew
+
+Clock                   Period          Waveform
+----------------------------------------------------
+clk                      10.00        0.00      5.00
+[6n[999C[6n[156Dopenroad> eitopenroad> ei[0K[12Copenroad> e[0K[11Cxit

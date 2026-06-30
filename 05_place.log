@@ -1,0 +1,133 @@
+OpenROAD 26Q2-2466-gd1f7a8dec3 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[WARNING STA-1140] /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: ( 10.120 10.880 ) ( 99.820 97.920 ) um
+[INFO GPL-0036] Movable instances area:       5640.410 um^2
+[INFO GPL-0037] Total instances area:         5768.032 um^2
+[INFO GPL-0035] Pin density area adjust:       372.894 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:               678
+[INFO GPL-0007] Movable instances:                 576
+[INFO GPL-0008] Fixed instances:                   102
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                    588
+[INFO GPL-0011] Number of pins:                   2111
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 110.000 110.000 ) um
+[INFO GPL-0013] Core BBox: ( 10.120 10.880 ) ( 99.820 97.920 ) um
+[INFO GPL-0016] Core area:                    7807.488 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                  7807.488 um^2
+[INFO GPL-0017] Fixed instances area:          127.622 um^2
+[INFO GPL-0018] Movable instances area:       6013.304 um^2
+[INFO GPL-0019] Utilization:                    78.300 %
+[INFO GPL-0020] Standard cells area:          6013.304 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 576	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.00000009 HPWL: 5879380
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00000010 HPWL: 5209267
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00000010 HPWL: 5214368
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00000010 HPWL: 5215752
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00000010 HPWL: 5216137
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[WARNING GPL-0302] Target density 0.7000 is too low for the available free area.
+Automatically adjusting to uniform density 0.7900.
+[INFO GPL-0023] Placement target density:       0.7900
+[INFO GPL-0024] Movable insts average area:     10.440 um^2
+[INFO GPL-0025] Ideal bin area:                 13.215 um^2
+[INFO GPL-0026] Ideal bin count:                   590
+[INFO GPL-0027] Total bin area:               7807.488 um^2
+[INFO GPL-0028] Bin count (X, Y):          16 ,     16
+[INFO GPL-0029] Bin size (W * H):       5.606 *  5.440 um
+[INFO GPL-0030] Number of bins:                    256
+[INFO GPL-0084] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9787 |  1.649061e+03 |   +0.00% |  3.52e-15 |      
+       10 |   0.9690 |  1.476880e+03 |  -10.44% |  5.74e-15 |      
+       20 |   0.9689 |  1.483333e+03 |   +0.44% |  9.35e-15 |      
+       30 |   0.9689 |  1.481663e+03 |   -0.11% |  1.52e-14 |      
+       40 |   0.9688 |  1.480446e+03 |   -0.08% |  2.48e-14 |      
+       50 |   0.9686 |  1.481588e+03 |   +0.08% |  4.04e-14 |      
+       60 |   0.9685 |  1.481587e+03 |   -0.00% |  6.58e-14 |      
+       70 |   0.9684 |  1.481377e+03 |   -0.01% |  1.07e-13 |      
+       80 |   0.9684 |  1.481939e+03 |   +0.04% |  1.75e-13 |      
+       90 |   0.9683 |  1.482636e+03 |   +0.05% |  2.84e-13 |      
+      100 |   0.9683 |  1.483546e+03 |   +0.06% |  4.63e-13 |      
+      110 |   0.9683 |  1.485789e+03 |   +0.15% |  7.54e-13 |      
+      120 |   0.9683 |  1.491039e+03 |   +0.35% |  1.23e-12 |      
+      130 |   0.9680 |  1.502981e+03 |   +0.80% |  2.00e-12 |      
+      140 |   0.9668 |  1.523406e+03 |   +1.36% |  3.26e-12 |      
+      150 |   0.9633 |  1.568175e+03 |   +2.94% |  5.31e-12 |      
+      160 |   0.9590 |  1.669227e+03 |   +6.44% |  8.65e-12 |      
+      170 |   0.9499 |  1.851350e+03 |  +10.91% |  1.41e-11 |      
+      180 |   0.9396 |  2.085350e+03 |  +12.64% |  2.30e-11 |      
+      190 |   0.9077 |  2.416720e+03 |  +15.89% |  3.74e-11 |      
+      200 |   0.8730 |  2.883987e+03 |  +19.33% |  6.09e-11 |      
+      210 |   0.8625 |  3.051436e+03 |   +5.81% |  9.92e-11 |      
+      220 |   0.8443 |  3.412796e+03 |  +11.84% |  1.62e-10 |      
+      230 |   0.7984 |  3.806168e+03 |  +11.53% |  2.63e-10 |      
+      240 |   0.7663 |  4.131571e+03 |   +8.55% |  4.29e-10 |      
+      250 |   0.7152 |  4.426644e+03 |   +7.14% |  6.98e-10 |      
+      260 |   0.6734 |  4.691463e+03 |   +5.98% |  1.14e-09 |      
+      270 |   0.6254 |  4.973099e+03 |   +6.00% |  1.85e-09 |      
+      280 |   0.5717 |  5.221966e+03 |   +5.00% |  3.02e-09 |      
+      290 |   0.5179 |  5.444188e+03 |   +4.26% |  4.92e-09 |      
+      300 |   0.4621 |  5.684389e+03 |   +4.41% |  8.01e-09 |      
+      310 |   0.4080 |  5.844682e+03 |   +2.82% |  1.30e-08 |      
+      320 |   0.3412 |  5.857075e+03 |   +0.21% |  2.10e-08 |      
+      330 |   0.3069 |  5.915577e+03 |   +1.00% |  3.10e-08 |      
+      340 |   0.2670 |  5.964125e+03 |   +0.82% |  4.56e-08 |      
+      350 |   0.2451 |  6.015257e+03 |   +0.86% |  6.72e-08 |      
+      360 |   0.2216 |  6.054186e+03 |   +0.65% |  9.90e-08 |      
+      370 |   0.1878 |  6.101399e+03 |   +0.78% |  1.46e-07 |      
+      380 |   0.1527 |  6.145699e+03 |   +0.73% |  2.15e-07 |      
+      390 |   0.1274 |  6.188832e+03 |   +0.70% |  3.17e-07 |      
+      400 |   0.1062 |  6.242087e+03 |   +0.86% |  4.66e-07 |      
+      403 |   0.0985 |  6.245195e+03 |          |  5.45e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 403
+[INFO GPL-1002] Placed Cell Area             6013.3035
+[INFO GPL-1003] Available Free Area          7679.8656
+[INFO GPL-1004] Minimum Feasible Density        0.7900 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.8700
+[INFO GPL-1008]     - For 80% usage of free space: 0.9787
+[INFO GPL-1014] Final placement area: 6013.30 (+0.00%)
+[INFO DPL-0006] Core area: 7807.49 um^2, Instances area: 5768.03 um^2, Utilization: 73.9%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1101] Legalizing using diamond search.
+Movements Summary
+---------------------------------------
+Total cells:                     576
+Diamond Move Success:            576 (100.00%)
+Diamond Move Failure:              0
+Rip-up and replace Success:        0 (  0.00% of diamond failures)
+Rip-up and replace Failure:        0
+Total Placement Failures:          0
+---------------------------------------
+[INFO DPL-0500] Runtime: 0.01s
+Placement Analysis
+---------------------------------
+total displacement       1883.2 u
+average displacement        2.8 u
+max displacement           23.4 u
+original HPWL            6253.6 u
+legalized HPWL           8570.6 u
+delta HPWL                   37 %
+
+Design area 5768 um^2 74% utilization.
+No paths found.
+[6n[999C[6n[156Dopenroad> exit

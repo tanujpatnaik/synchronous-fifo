@@ -1,0 +1,79 @@
+OpenROAD 26Q2-2466-gd1f7a8dec3 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 2566
+[INFO GRT-0019] Found 18 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 37
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal       2831          2831          0.00%
+met2       Vertical         3034          3034          0.00%
+met3       Horizontal       2166          2166          0.00%
+met4       Vertical         1510          1510          0.00%
+met5       Horizontal        394           394          0.00%
+---------------------------------------------------------------
+
+[INFO GRT-0197] Via related to pin nodes: 3579
+[INFO GRT-0198] Via related Steiner nodes: 63
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 4429
+[INFO GRT-0112] Final usage 3D: 15329
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Congestion
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1              2831           931           32.89%             0 /  0 /  0
+met2              3034           981           32.33%             0 /  0 /  0
+met3              2166           129            5.96%             0 /  0 /  0
+met4              1510             1            0.07%             0 /  0 /  0
+met5               394             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total             9935          2042           20.55%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 23549 um
+[INFO GRT-0014] Routed nets: 605
+[INFO GRT-0303] Global routing runtime = 00:00:00
+
+================ GLOBAL ROUTING ================
+
+Startpoint                           Endpoint                               Slack
+--------------------------------------------------------------------------------
+wr_en (input)                        _0875_/D (sky130_fd_sc_hd__dfxtp_1)     4.28
+
+Startpoint                           Endpoint                               Slack
+--------------------------------------------------------------------------------
+_0995_/Q (sky130_fd_sc_hd__dfxtp_1)  _0995_/D (sky130_fd_sc_hd__dfxtp_1)     0.24
+
+Clock clk
+   0.39 source latency _0992_/CLK ^
+  -0.38 target latency _0980_/CLK ^
+   0.20 clock uncertainty
+   0.00 CRPR
+--------------
+   0.21 setup skew
+
+Design area 6436 um^2 82% utilization.
+[6n[999C[6n[156Dopenroad> exit

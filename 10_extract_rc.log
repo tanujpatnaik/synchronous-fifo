@@ -1,0 +1,34 @@
+OpenROAD 26Q2-2466-gd1f7a8dec3 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[INFO RCX-0435] Reading extraction model file /home/tanuj/.volare/sky130A/libs.tech/openlane/rules.openrcx.sky130A.nom.spef_extractor ...
+[INFO RCX-0434] Defined process_corner MinMax0 with ext_model_index 0 (using extRulesFile defaults)
+[INFO RCX-0436] RC segment generation sync_fifo (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 2498 rc segments
+[INFO RCX-0439] Coupling Cap extraction sync_fifo ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 52% of 5134 wires extracted
+[INFO RCX-0442] 100% of 5134 wires extracted
+[INFO RCX-0045] Extract 605 nets, 3102 rsegs, 3102 caps, 4264 ccs
+[INFO RCX-0443] 605 nets finished
+[INFO RCX-0435] Reading extraction model file /home/tanuj/.volare/sky130A/libs.tech/openlane/rules.openrcx.sky130A.min.spef_extractor ...
+[INFO RCX-0436] RC segment generation sync_fifo (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 2491 rc segments
+[INFO RCX-0439] Coupling Cap extraction sync_fifo ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0045] Extract 605 nets, 3095 rsegs, 3095 caps, 4265 ccs
+[INFO RCX-0443] 605 nets finished
+[INFO RCX-0435] Reading extraction model file /home/tanuj/.volare/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.spef_extractor ...
+[INFO RCX-0436] RC segment generation sync_fifo (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 2512 rc segments
+[INFO RCX-0439] Coupling Cap extraction sync_fifo ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0045] Extract 605 nets, 3116 rsegs, 3116 caps, 4266 ccs
+[INFO RCX-0443] 605 nets finished
+[6n[999C[6n[156Dopenroad> exit
