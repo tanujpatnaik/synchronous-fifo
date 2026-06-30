@@ -1,0 +1,31 @@
+read_verilog rtl/sync_fifo.v 
+hierarchy -check -top sync_fifo 
+check
+stat
+proc
+opt
+fsm_detect
+fsm_opt
+fsm_recode
+fsm 
+memory
+memory_map
+memory_collect
+opt_expr
+opt_clean
+wreduce
+share
+opt
+techmap
+muxpack
+flatten
+dfflibmap -liberty /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+hilomap -hicell sky130_fd_sc_hd__conb_1 HI -locell sky130_fd_sc_hd__conb_1 LO
+splitnets
+clean 
+opt
+check
+stat
+write_verilog synthesis/synth.v
+show
