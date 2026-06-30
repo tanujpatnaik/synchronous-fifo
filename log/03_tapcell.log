@@ -8,5 +8,5 @@ The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/tanuj/.volare
 
 [INFO ODB-0227] LEF file: /home/tanuj/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
 [INFO TAP-0005] Inserted 102 tapcells.
-[6n[999C[6n[156Dopenroad> ecit[6n[999C[6n[156Dopenroad> exit
+openroad> exit
 
